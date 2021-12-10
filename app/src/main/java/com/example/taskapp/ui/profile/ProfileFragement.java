@@ -53,30 +53,14 @@ private ActivityResultLauncher<String> mGetContent;
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        initListener();
         initListener1();
         mGetContent = registerForActivityResult(new ActivityResultContracts.GetContent(), new ActivityResultCallback<Uri>() {
             @Override
             public void onActivityResult(Uri result) {
-                Toast.makeText(requireContext(), result.toString(), Toast.LENGTH_SHORT).show();
                 binding.ImageViewId.setImageURI(result);
             }
         });
     }
-    public void initListener() {
-        binding.ImageViewId.setOnClickListener(v -> {
-            if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
-              /*  Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                startActivityForResult(intent, RESULT_LOAD_IMAGE);*/
-                mGetContent.launch("image/*");
-            } else {
-                ActivityCompat.requestPermissions((Activity) getContext(), new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
-            }
-        });
-    }
-
-
-
     private void initListener1() {
     binding.ImageViewId.setOnClickListener(v -> {
         mGetContent.launch("image/*");
