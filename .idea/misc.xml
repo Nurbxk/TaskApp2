@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.2755208333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/activity_main.xml" value="0.259375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.259375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_form.xml" value="0.259375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_notifications.xml" value="0.259375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_on_board.xml" value="0.2557291666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_profile_fragement.xml" value="0.25885416666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/item_rv.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/layout/pager_board.xml" value="0.259375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.259375" />
       </map>
     </option>

@@ -60,16 +60,19 @@ private ActivityResultLauncher<String> mGetContent;
                 binding.ImageViewId.setImageURI(result);
             }
         });
-    }
+
+        }
+
+
     private void initListener1() {
     binding.ImageViewId.setOnClickListener(v -> {
         mGetContent.launch("image/*");
+
     });
     }
 
 
-
-        }
+      }
 
 
 

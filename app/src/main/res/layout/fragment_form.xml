@@ -16,6 +16,7 @@
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintEnd_toEndOf="parent"
      android:hint="Enter your text"
+
      android:textAllCaps="true"/>
 <Button
     android:id="@+id/saveBtn"

@@ -32,4 +32,9 @@
         android:name="com.example.taskapp.ui.profile.ProfileFragement"
         android:label="fragment_profile_fragement"
         tools:layout="@layout/fragment_profile_fragement" />
+    <fragment
+        android:id="@+id/boardFragment2"
+        android:name="com.example.taskapp.ui.board.boardFragment"
+        android:label="fragment_on_board"
+        tools:layout="@layout/fragment_on_board" />
 </navigation>
